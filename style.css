@@ -1,0 +1,27 @@
+.container {
+    max-width: 650px;
+    min-height: 25px;
+    margin: 20px auto;
+    padding: 20px 25px;
+    border: 2px solid rgb(0, 140, 255);;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 5px 0;
+    background: rgb(0, 140, 255);
+}
+
+.second {
+    background: coral;
+}
+
+.second .box {
+    background: purple;
+}
